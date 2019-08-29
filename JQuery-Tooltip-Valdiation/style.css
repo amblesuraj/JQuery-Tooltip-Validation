@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    /* background-image: linear-gradient(to top,yellow,red); */
+    background-size: 300% 300%;    
+}
+
+.card
+{
+    top: 0%;
+    left: 50%;
+    border-radius:2rem;
+    transform: translate(-50%,10%);
+    -webkit-transform: translate(-50%,10%);
+    -moz-transform: translate(-50%,10%);
+    -ms-transform: translate(-50%,10%);
+    -o-transform: translate(-50%,10%);
+    -webkit-border-radius:2rem;
+    -moz-border-radius:2rem;
+    -ms-border-radius:2rem;
+    -o-border-radius:2rem;
+    box-shadow: 0px 10px 25px rgba(0,0,0,1);
+    
+}
+
+.bgLogin 
+{
+    background-image: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    border-radius: 2rem;
+   margin: 1px;
+   box-shadow: 0px 10px 25px rgba(0,0,0,1);
+   -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+form
+{
+    padding: 2rem;
+    margin: 3rem;
+    background: ivory;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.form-control 
+{
+    color:black !important;
+    padding: 1.5rem .75rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.regBtn 
+{
+    padding: .7rem ;
+    box-shadow: 0px 3px 5px 3px gray;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: .25rem .5rem;
+    color: #fff;
+    text-align: center;
+    background-color: red;
+    border-radius: .25rem;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+    top: 0;
+    border-width: .4rem .4rem 0;
+    border-top-color: red;
+}
+
+.bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    left: 0;
+    border-width: .4rem 0 .4rem .4rem;
+    border-left-color: red;
+}
+.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    right: 0;
+    border-width: .4rem .4rem .4rem 0;
+    border-right-color: red;
+}
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    bottom: 0;
+    border-width: 0 .4rem .4rem;
+    border-bottom-color: red;
+}
