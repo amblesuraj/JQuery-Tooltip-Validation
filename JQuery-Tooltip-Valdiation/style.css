@@ -76,7 +76,18 @@ form
 }
 
 
+/* This CSS For tooltip...
 
+
+ 	by default background-color of tooltip is black....
+	
+	and arrow has black color too...
+	
+	change it to red color
+	
+	This will change for all tooltip not only for validation
+
+ */
 .tooltip-inner {
     max-width: 200px;
     padding: .25rem .5rem;

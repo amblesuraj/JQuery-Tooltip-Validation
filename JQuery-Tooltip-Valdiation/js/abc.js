@@ -47,6 +47,10 @@ $(document).ready(function(){
              }
 
         },
+        
+        //This is optional....
+        //By default placement is top....
+        
         tooltip_options:{
             fname:{
                 trigger:"focus",
